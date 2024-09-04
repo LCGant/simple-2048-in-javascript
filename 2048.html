@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles/2048.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-container">
+            <div class="difficulty-selector">
+                <label for="difficulty">Select Difficulty:</label>
+                <select id="difficulty">
+                    <option value="3">Very Hard</option>
+                    <option value="4" selected>Normal</option>
+                    <option value="5">Eazy</option>
+                    <option value="6">Very Eazy</option>
+                </select>
+            </div>
+            <div class="score-container">
+                <div>Score</div>
+                <div id="score">0</div>
+            </div>
+            <div class="best-score-container">
+                <div>Best Score</div>
+                <div id="best-score">0</div>
+            </div>
+            <button id="restartButton" class="restartButton" aria-label="Restart Game">Restart</button>
+        </div>
+        <div class="game-container">
+            <div id="gameOverOverlay" class="game-over-overlay">
+                <div class="game-over-message">
+                    <p>Game Over</p>
+                    <button id="restartButtonOverlay" class="restartButton" aria-label="Restart Game">Restart</button>
+                </div>
+            </div>
+            <div class="grid-container"></div>
+        </div>
+    </div>
+    
+    <script src="js/2048.js"></script>
+</body>
+</html>
