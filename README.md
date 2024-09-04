@@ -15,6 +15,7 @@ This is a project implementing the 2048 game, a popular number puzzle game. This
 
 The project structure is as follows:
 
+```
 2048/
 ├── index.html
 ├── styles/ 
@@ -23,7 +24,7 @@ The project structure is as follows:
 └── js/
     │ 
     └── 2048.js
-
+```
 
 - **index.html:** Contains the HTML structure of the game, including containers for the grid, scores, and buttons.
 - **styles/2048.css:** Defines the style and layout of the game, including the appearance of tiles and the game container.
@@ -39,7 +40,7 @@ The project structure is as follows:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/LCGant/simple-2048-in-javascript
 ```
 
 2. Navigate to the project directory:
