@@ -58,6 +58,14 @@ cd 2048
 - **Restart the Game:** Click the "Restart" button to start a new game.
 - **View Score:** The current score and best score are displayed at the top of the page.
 
+## Showcase
+
+- Here are some images showcasing the game:
+
+![Showcase](img-showcase/img.png)
+![Showcase](img-showcase/img1.png)
+![Showcase](img-showcase/img2.png)
+
 ## Contributing
 
 Contributions are welcome! If you find bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
